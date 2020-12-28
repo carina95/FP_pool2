@@ -24,6 +24,8 @@ namespace problema_4
             Console.Write(" a = ");
             a = int.Parse(Console.ReadLine());
 
+            c = -1 ; //contorul 
+
             for (i = 1; i <= n; i++)
             {
                 Console.Write("numarul {0}  = ", i);
@@ -35,7 +37,7 @@ namespace problema_4
                 }
             }
 
-            c = -1 ; //contorul 
+       
 
             Console.WriteLine($"Numarul {a} se afla pe pozitia {c} din secventa. ");
         }
